@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "puzzles"
+version = "0.1.0"
+description = "My attempt at Jane Street's puzzles"
+authors = ["Justin Arista Kasin <justin@aristakas.in>"]
+license = "GNU General Public License v3.0"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.dev-dependencies]
+black = "^21.4b2"
+pylint = "^2.8.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
